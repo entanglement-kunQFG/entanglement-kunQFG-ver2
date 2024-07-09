@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カウントダウンタイマー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>カウントダウンタイマー</h1>
+        <p id="current-time"></p>
+        <label for="name-select">名前を選んでください:</label>
+        <select id="name-select">
+            <option value="A君">A君</option>
+            <option value="B君">B君</option>
+            <option value="C君">C君</option>
+        </select>
+        <label for="end-time">終了時刻を入力してください（例：2024-07-10T18:00）:</label>
+        <input type="datetime-local" id="end-time">
+        <button id="start-countdown-btn">カウントダウン開始</button>
+        <p id="initiator"></p>
+        <p id="start-time"></p>
+        <p id="end-time-display"></p>
+        <p id="countdown"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
